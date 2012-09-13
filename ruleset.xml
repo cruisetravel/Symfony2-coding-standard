@@ -78,6 +78,11 @@
         <severity>0</severity>
     </rule>
 
+    <!-- When not checking for missing parameter comments, alignment doesn't need to be checked either -->
+    <rule ref="Symfony2.Commenting.FunctionComment.ParameterCommentsNotAligned">
+        <severity>0</severity>
+    </rule>
+
     <rule ref="Symfony2.Commenting.FunctionComment.SpacingBeforeTags">
         <severity>0</severity>
     </rule>
